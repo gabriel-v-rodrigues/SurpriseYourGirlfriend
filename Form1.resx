@@ -84,7 +84,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;button_yes.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>1</value>
   </data>
   <data name="button_no.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 9pt, style=Bold</value>
@@ -111,7 +111,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;button_no.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>2</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="box_question.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
@@ -135,9 +135,6 @@
   <data name="box_question.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
-  <data name="box_question.Text" xml:space="preserve">
-    <value>Do you want to be my girlfriend?</value>
-  </data>
   <data name="box_question.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
     <value>Center</value>
   </data>
@@ -151,7 +148,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;box_question.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>

@@ -39,6 +39,7 @@
             resources.ApplyResources(this.button_yes, "button_yes");
             this.button_yes.Name = "button_yes";
             this.button_yes.UseVisualStyleBackColor = true;
+            this.button_yes.Click += new System.EventHandler(this.button_yes_Click);
             // 
             // button_no
             // 
@@ -63,9 +64,9 @@
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.button_no);
             this.Controls.Add(this.box_question);
             this.Controls.Add(this.button_yes);
+            this.Controls.Add(this.button_no);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
